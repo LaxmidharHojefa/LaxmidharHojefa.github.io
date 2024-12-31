@@ -75,7 +75,7 @@ h1, h2 {
 }
   
 /* Navigation */
-  .navbar {
+.navbar {
     position: sticky;
     top: 0;
     z-index: 10;
@@ -197,7 +197,11 @@ h1, h2 {
     transition: transform 0.3s;
     text-align: justify;
 }
-  
+
+.project p {
+    margin-bottom: 22px;
+}
+
 .project:hover {
     transform: translateY(-5px);
 }
@@ -217,7 +221,11 @@ h1, h2 {
     transition: transform 0.3s;
     text-align: justify;
 }
-  
+
+.experience p {
+    margin-bottom: 22px;
+}
+
 .experience:hover {
     transform: translateY(-5px);
 }
