@@ -48,14 +48,14 @@ document.querySelectorAll('.project').forEach(project => {
 });
 
 // Experiences hover animation
-document.querySelectorAll('.experience').forEach(project => {
-    project.addEventListener('mouseenter', () => {
-        project.style.transform = 'translateY(-10px)';
-        project.style.boxShadow = '0 8px 15px rgba(0, 0, 0, 0.3)';
+document.querySelectorAll('.experience').forEach(experience => {
+    experience.addEventListener('mouseenter', () => {
+        experience.style.transform = 'translateY(-10px)';
+        experience.style.boxShadow = '0 8px 15px rgba(0, 0, 0, 0.3)';
     });
-    project.addEventListener('mouseleave', () => {
-        project.style.transform = 'translateY(0)';
-        project.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+    experience.addEventListener('mouseleave', () => {
+        experience.style.transform = 'translateY(0)';
+        experience.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
     });
 });
 
@@ -87,3 +87,5 @@ window.addEventListener('scroll', () => {
 backToTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+
